@@ -2,7 +2,8 @@
 
 **update by 2018.01.30**
 
-the issue gone, but I don't do anything.
+I reproduce this issue again.
+But the issue gone, I don't do anything.
 
 ## introduce
 
