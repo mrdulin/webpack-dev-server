@@ -2,7 +2,7 @@ const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const join = (modulePath) => path.join(process.cwd(), modulePath);
+const join = modulePath => path.join(process.cwd(), modulePath);
 const port = 3000;
 
 let config = {
@@ -16,10 +16,8 @@ let config = {
     publicPath: `http://localhost:${port}`
   },
   devServer: {
-    contentBase: './app',
     historyApiFallback: true,
-    inline: true,
-    port,
+    port
   },
   module: {
     rules: [
@@ -30,7 +28,7 @@ let config = {
           {
             loader: 'babel-loader',
             options: {
-              presets: ['es2015'],
+              presets: ['es2015']
             }
           }
         ]

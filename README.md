@@ -1,15 +1,18 @@
 # webpack-dev-server
 
-**update by 2018.01.30**
-
-I reproduce this issue again.
-But the issue gone, I don't do anything.
-
 ## introduce
 
 for reproducing issue
 
-`IOS device Failed to load resource: Could not connect to the server`
+IOS device:
+
+`Failed to load resource: Could not connect to the server`
+
+**the js script does not load correctly**
+
+![](https://ws1.sinaimg.cn/large/006tNc79ly1fnyn7o39qmj30rp0igq37.jpg)
+
+## environment
 
 * Operating System: OSX
 * Node Version: 8.4.0
