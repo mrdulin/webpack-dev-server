@@ -1,5 +1,11 @@
 # webpack-dev-server
 
+**update by 2018.01.30**
+
+the issue gone, but I don't do anything.
+
+## introduce
+
 for reproducing issue
 
 `IOS device Failed to load resource: Could not connect to the server`
@@ -30,10 +36,12 @@ server {
 127.0.0.1 www.domain1.com
 ```
 
+then, open your browser, access http://www.domain1.com/srilanka
+
 ## device and system infomation
 
 * iPhone 6 plus, system: ios 8.1.2
 * iPhone 6s plus, system: ios 10
 * iPhone 7, system: ios 11
 
-PC and android devices works fine. 
+PC and android devices works fine.
